@@ -1,0 +1,59 @@
+*{
+    font-family: "Sacramento";
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#calc{
+    position: relative;
+    margin: 60px auto;
+    height: 74vh;
+    width: 21vw;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 5px 11px 10px 6px rgb(39 37 37 / 30%);
+}
+#screen{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 30%;
+    background-color: black;
+    text-align: right;
+    padding: 10px;
+    color: white;
+}
+#past{
+    font-size: 20px;
+}
+#present{
+    font-size: 40px;
+}
+#keyboard{
+    height: 70%;
+    /* background-color: blueviolet; */
+    padding: 0px 5px;
+}
+.num, .operator{
+    margin-left: 9px;
+    margin-top: 9px;
+    height: 60px;
+    width: 60px;
+    float: left;
+    border-radius: 50%;
+    font-size: 30px;
+    cursor: pointer;
+}
+.operator{
+    background-color: orange;
+}
+button:nth-child(1),button:nth-child(2),button:nth-child(3){
+    background-color: rgb(204, 192, 177);
+}
+button:nth-child(17){
+    width: 198px;
+    border-radius: 30px;
+}
+#past, #present{
+    height: 49%;
+    padding: 5px;
+}
